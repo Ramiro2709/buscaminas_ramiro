@@ -1,0 +1,99 @@
+*
+{
+	font-family: monospace;
+	
+}
+/* No mover */
+.cubo
+{
+	
+	width: 25px;
+	height: 25px;
+	background-color: grey;
+	margin: 1px 1px 1px 1px;
+	
+	display: inline-block;
+	box-shadow: -1px -1px 5px;
+	text-align: center;
+	
+	font-family: Fuente_buscaminas;
+	
+	
+	background-size: 25px;
+}
+
+/* No mover */
+.cubo:hover
+{
+	background-color: cadetblue;
+	
+}
+
+.bomba
+{
+	width: 40px;
+	height: 40px;
+	background-color: red;
+	margin: -2px -2px -2px -1px;
+	display: inline-block;
+	box-shadow: -1px -1px 5px;
+}
+
+.cuadro
+{
+	width: 200px;
+	height: 40px;
+	background-color: lightgray;
+	border: 1px solid black;
+	display: inline-block;
+	/*
+	position: absolute;
+	margin: -78px 0px 0px 236px;
+	*/
+}
+
+
+
+.empezar
+{
+	width: 200px;
+	text-align: center;
+	background-color: firebrick;
+	color: aliceblue;
+	
+	font-size: 20px;
+	margin-left: -2px;
+	margin-bottom: 5px;
+	border: 1px solid black;
+	box-shadow: 1px 1px 5px inset;
+	border-radius: 10px / 10px;
+	display: inline-block
+}
+
+.empezar:hover
+{
+	background-color: rgb(255,40,40);
+}
+
+
+
+@font-face
+{
+    font-family: "Fuente_buscaminas.ttf";
+    src:url("Fuente_buscaminas.ttf");
+}
+
+.menu
+{
+	display: inline-block;
+}
+
+#div_ver_vic
+{
+	visibility: hidden;
+}
+
+#puntos
+{
+	visibility: hidden;
+}
