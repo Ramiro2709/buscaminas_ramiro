@@ -51,7 +51,7 @@ function empezar ()
 	prueba3.value = null; 
 	*/
 	
-	tabla.innerHTML = null;
+	tabla.innerHTML = '';
 	for (iy = 0; iy < largo; iy++)
 		{
 			fila = "<div class='fila' id='fila"+iy+"'>";
